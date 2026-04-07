@@ -1,0 +1,7 @@
+Hello, this file is created using Python.
+This is the second line.
+line one
+line two
+line three
+This line is appended to the file.
+This is a second line appended to the file.
