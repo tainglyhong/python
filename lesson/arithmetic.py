@@ -32,3 +32,4 @@ print("Modulus:", modulus)
 exponentiation = a ** b
 print("Exponentiation:", exponentiation)
 
+print(98 // 10)

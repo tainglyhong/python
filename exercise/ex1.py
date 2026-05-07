@@ -7,7 +7,7 @@ Create a variable to store the information below :
 """
 
 name = "Lyhong"
-age = 22
+age = 25
 height = 1.75
 is_student = True
 
@@ -17,3 +17,4 @@ print(f'Age : {age}')
 print(f'Height : {height}')
 print(f'Is student : {'Yes' if is_student == True else 'No'}')
 print('-' * 20)
+
