@@ -10,3 +10,4 @@ if inventory > 0:
         print("Thank you for browsing.")
 else:
     print("This item is currently out of stock.")
+    

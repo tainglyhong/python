@@ -8,4 +8,22 @@ else:
         print("Passwords don't match.")
     else:
         print("Password changed.")
+
+
+# answer = ""
+# quest_complete = ""
+# if answer == "west":
+#     print("You see a dark forest.")
+# else:
+#     if quest_complete:
+#         print("You should head to the forest.")
+
+#     print("You arrive at home.")
     
+"""
+Question
+When the output show "You see a dark forest"
+When the output show "You should head to the forest./You arrive at home."
+When the output show "You arrive at home."
+When the output show "You should head to the forest."
+"""
