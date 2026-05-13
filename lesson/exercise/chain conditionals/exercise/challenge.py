@@ -12,7 +12,7 @@ answer = input("What data type is the value 6.3? ")
 
 if answer == "float":
     print("You got it!")
-    score = score + 1
+    score += 1
 elif answer == "integer":
     print("Integers can't have decimals.")
 else:

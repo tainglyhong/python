@@ -1,15 +1,11 @@
 """
-if True:            (execute)
-    do something    (print)
-else:
-    do something
-do something        (jump to here)
-
 if false:
     do something
-else:               (execute)
-    do something    (print)
-do something        (jump to here)
+else:
+    do something
+    do something
+do something
+
 """
 
 screen_width = 1080

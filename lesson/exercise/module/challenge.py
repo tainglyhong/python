@@ -16,8 +16,28 @@
 """
 
 import avatar
+import random
 
-avatar.draw_bow()
+bow = random.randint(1,3)
+if bow == 1:
+    avatar.draw_bow()
+
 avatar.draw_eyes("medium")
-avatar.draw_nose("triangle")
-avatar.draw_mouth("smile")
+
+nose = random.randint(1,2)
+if nose == 1:
+    avatar.draw_nose("triangle")
+else:
+    avatar.draw_nose("button")
+
+mouth = random.randint(1,4)
+if mouth == 1 or mouth == 2:
+    avatar.draw_mouth("smile")
+elif mouth == 3:
+    avatar.draw_mouth("teeth")
+else:
+    avatar.draw_mouth("neutral")
+    
+if bow == 2:
+    avatar.draw_bow()
+    

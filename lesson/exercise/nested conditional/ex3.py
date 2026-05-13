@@ -1,5 +1,5 @@
-weather = "rainy"
-trail_condition = "icy"
+weather = "sunny"
+trail_condition = "dry"
 
 if weather == "sunny":
     if trail_condition == "dry":
