@@ -20,7 +20,19 @@ balance = 1000
 pin = input("Enter PIN: ")
 
 if pin == "1234":
-    print("Access granted")
+
+    amount = float(input("Enter withdrawal amount: "))
+
+    if amount > balance:
+        print("Insufficient balance")
+
+    else:
+
+        if amount > 500:
+            print("Daily limit exceeded")
+
+        else:
+            print("Transaction successful")
 
 else:
     print("Wrong PIN")

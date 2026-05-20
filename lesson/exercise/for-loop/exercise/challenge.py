@@ -6,6 +6,9 @@ num_cooks = 2
 waiting_to_order = 0
 waiting_for_food = 0
 
+# New variable to track total customers served
+total_customers_served = 0
+
 # Restaurant is open for 5 hours = 300 minutes
 for minute in range(300):
 
@@ -25,8 +28,14 @@ for minute in range(300):
     # Customers leave after receiving food.
     waiting_for_food = waiting_for_food - completed_orders
 
+    # Update total customers served
+    total_customers_served = total_customers_served + completed_orders
+
     # Print status at the end of each minute
     print("Minute", minute + 1)
     print(str(waiting_to_order) + " customers waiting to order.")
     print(str(waiting_for_food) + " customers waiting for food.")
     print()
+
+# Print total customers served at the end of the shift
+print("Total customers served:", total_customers_served)

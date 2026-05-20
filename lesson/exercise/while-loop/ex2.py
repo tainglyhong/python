@@ -1,4 +1,4 @@
-username = ""
+username = input("Enter username : ")
 
 # Keep prompting until the user enters a valid username.
 while len(username) < 5:
@@ -6,3 +6,4 @@ while len(username) < 5:
     username = input("Choose a username: ")
 
 print("Username changed.")
+print(f'Your username is : {username}')

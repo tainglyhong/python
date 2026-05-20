@@ -1,16 +1,16 @@
-bags_per_group = 10
-bags_loaded = 0
+# bags_per_group = 10
+# bags_loaded = 0
 
-while bags_loaded <= 50:
-    print("Loading bags.")
-    bags_loaded = bags_loaded + bags_per_group
+# while bags_loaded <= 50:
+#     print("Loading bags.")
+#     bags_loaded = bags_loaded + bags_per_group
     
 # How many times does the loop body execute?
 
 
 
 balance = 10
-fare = int(input("How much is the bus fare?"))
+fare = int(input("How much is the bus fare? "))
 
 while balance > 0:
     print(balance)

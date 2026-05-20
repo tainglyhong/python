@@ -6,5 +6,5 @@ years = 3
 for month in range(years * 12):
     interest = balance * interest_rate
     balance = round(balance + interest, 2)
-
+    # print(month)
     print("Current balance: $" + str(balance))
