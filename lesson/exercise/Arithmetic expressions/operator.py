@@ -5,7 +5,7 @@
 # **	    exponentiation	        x ** y	    x to the power of y
 # /	        float division	        x / y	    x divided by y
 # //	    floor division	        x // y	    x floor divided by y
-# %	        modulus (remainder)	    x % y	    x modulo y
+# %	        modulus (remainder)	    x % y	    x modulus y
 
 # example
 x = 10

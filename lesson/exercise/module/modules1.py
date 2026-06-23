@@ -24,3 +24,5 @@ print(math.sin(math.pi / 2))  # using the sin function from the math module
 print(math.cos(0))  # using the cos function from the math module
 
 print(m.sin(0))
+
+print(m.sqrt(20))

@@ -2,7 +2,7 @@
 def greeting(name = "mate", age = 16):
     print(f"Hello, {name}! I'm {age} years old.")
     
-greeting("Hong", 20)  # uses default value
+greeting()  # uses default value
 
 # =================================
 
