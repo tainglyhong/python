@@ -1,3 +1,6 @@
+# ======================================
+# POSITIVE INDEXING
+# ======================================
 colors = ['red', 'green', 'blue', 'black', 'white']
 
 # Access the list by element of a list by index
@@ -11,11 +14,17 @@ print(colors[4])
 # how to know the range of list
 print(len(colors)) # 5 : mean it's count the element in the list
 
-# Negative index
+
+# ======================================
+# NEGATIVE INDEXING
+# ======================================
 print(colors[-1]) #count reverse from the last, starting at index -1 (index 4)
 print(colors[-3])
 print(colors[-5])
 
+# ======================================
+# MUTABLE LISTS
+# ======================================
 # List are mutable = mean can be change or changable
 # string are immutable = mean cannot be change
 

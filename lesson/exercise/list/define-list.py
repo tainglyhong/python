@@ -1,8 +1,14 @@
+# ======================================
+# DATA STRUCTURES AND ALGORITHMS
+# ======================================
 # Concept data sructure and algorithm
-# What are they
+# What are they?
 # Algorithms : a set of rule or step by step to solving problem.
 # Data structures : a particular way of organizing data in a computer.
 
+# ======================================
+# WHAT IS A LIST?
+# ======================================
 # What is a list?
 # List is a kind of collection of data
 # - A collection allow us to put many values in a single “variable”
@@ -25,6 +31,21 @@ print(fruits)
 print(numbers)
 print(mixed)
 
-#empty list
+# ======================================
+# EMPTY LIST
+# ======================================
 empty_list = []
 print(empty_list)
+
+# ======================================
+# NESTED LISTS
+# ======================================
+matrix = [
+    [1, 2, 3],  # Row 0
+    [4, 5, 6],  # Row 1
+    [7, 8, 9]   # Row 2
+]
+
+print(matrix[0])     # Output: [1, 2, 3] (Fetches the entire first row)
+print(matrix[1][1])  # Output: 5         (Fetches row 1, column 1)
+print(matrix[2][0])  # Output: 7         (Fetches row 2, column 0)

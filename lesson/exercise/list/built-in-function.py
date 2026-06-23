@@ -8,3 +8,5 @@ print(min(nums))
 print(sum(nums))
 
 print(sum(nums)/len(nums))
+
+print(sorted(nums))

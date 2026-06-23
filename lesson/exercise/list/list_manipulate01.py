@@ -2,13 +2,11 @@
 import random
 
 colors = ["red", "orange", "yellow", "green", "blue"]
-
 color = random.choice(colors)
-
 print("You chose " + color + "!")
 
 
-#build list from scratch
+# build list from scratch
 # - We can create an empty list and 
 # then add elements using the append method
 # - The list stays in order and 
@@ -31,6 +29,7 @@ print(somes)
 print(5 in somes)
 print(32 in somes)
 
+
 #you can sorting a list in order
 somes.sort()
 print("After sorting : ", somes)
@@ -38,3 +37,14 @@ print("After sorting : ", somes)
 #remove
 somes.remove(5)
 print(somes)
+
+#pop 
+fruits = ["apple", "banana", "orange"]
+removed = fruits.pop()
+
+print(removed)
+print(fruits)
+
+numbers = [1,2,3,4,5,6,7,8]
+numbers.reverse()
+print(numbers)
