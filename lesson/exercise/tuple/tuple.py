@@ -1,23 +1,19 @@
-# Tuples are like Lists
-# Tuple are another kind of sequence that function much like a list
-# - they have elements which are indexed starting at 0
+# A tuple in Python is an ordered collection of values, 
+# similar to a list, but immutable: once created, you cannot change its items.
 
-x = ('Glenn', 'Sally', 'Joseph')
-print(x[2])
+my_tuple = (10, 20, 30)
 
-y = (1, 9, 2)
-print(y)
-print(max(y))
+student = ("Ali", 20, "Computer Science", 3.8)
 
-for iter in y:
-    print(iter)
-    
-# Tuple are immutable
-z = (2, 5, 6)
-# z[0] = 3
-print(z)
+# Creating Tuples
+t1 = (1, 2, 3)
+t2 = ("apple", "banana")
+t3 = ()              # empty tuple
+t4 = (5,)            # one-item tuple, comma is required
 
-# Things you can not to do with tuple like sort(), append(), reverse() .....
-# you can check what you can do with tuple
-t = tuple()
-print(dir(t))
+# Accessing Items
+numbers = (10, 20, 30, 40)
+
+print(numbers[0])    # 10
+print(numbers[2])    # 30
+print(numbers[-1])   # 40

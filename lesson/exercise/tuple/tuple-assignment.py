@@ -1,5 +1,5 @@
-# we can also put a tuple on the left-hand side of an assignment statement
-# we can even omit the parentheses
+# we can also put a tuple on the 
+# left-hand side of an assignment statement
 
 (x, y) = (4, 'fred')
 print(y)
