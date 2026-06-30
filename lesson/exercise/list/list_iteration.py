@@ -30,9 +30,7 @@ for i in fruits:
 
 # SEARCHING
 students = ["John", "Sara", "Mike"]
-
 target = "Sara"
-
 found = False
 
 for student in students:

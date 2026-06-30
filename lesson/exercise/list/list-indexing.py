@@ -30,7 +30,7 @@ print(colors[-5])
 
 # x = 'banana'
 # x[0] = 'B'
-# print(x) # It would be error, but
+# print(x) # It would be error
 
 x = ['banana', 'apple']
 print(x[0])
