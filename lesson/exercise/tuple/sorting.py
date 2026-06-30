@@ -1,5 +1,5 @@
-d = {'a' : 10, 'c' : 30, 'b' : 90}
-print(d.items())
+Ratings = (0, 9, 6, 5, 10, 8, 9, 6, 2)
+# Sort the tuple
 
-t = sorted(d.items())
-print(t)
+RatingsSorted = sorted(Ratings)
+print(RatingsSorted)
